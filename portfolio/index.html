@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>My Portfolio</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-secondary-secondary-emphasis">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarScroll">
+            <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Acceuil</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">A propos</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Portfolio
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" aria-disabled="true">Contact</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    <main>
+        <p>
+        <section id="home">
+            <h1>Welcome to My Portfolio</h1>
+        </section>
+    </p>
+        <section id="about">
+            <p>
+            <img src="background 1.jpg" alt="My Photo" width="250">
+        </p>
+            <p>Je suis développeur web avec 2ans d'expérience. Je me spécialise dans le développement front-end utilisant HTML, CSS et JavaScript. J'ai une passion pour la création de sites Web clairs, conviviaux et accessibles à tous.</p>
+        </section>
+        <section id="portfolio">
+            <h2></h2>
+            <div class="gallery">
+                <a href="">MES PROJETS</a>
+                <a href="project1.html">Projet1<img src="P2 (2).png" alt="Project 1" width="50"></a>
+                <p>
+                <a href="project2.html">Projet2<img src="P3 (3).png" alt="Project 2" width="50"></a>
+            </p>
+            </div>
+        </section>
+        <section id="contact">
+            <h2>Contact</h2>
+            <form action="mailto:you@example.com" method="post" enctype="text/plain">
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name" required><br>
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" required><br>
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" required></textarea><br>
+                <input type="submit" value="Send">
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 ABLAYE NDAO. All rights reserved.</p>
+        <ul>
+            <li><a href="https://instagram.com/yourtwitter">Instagram</a>
+            <img src="LOGO IG.png" alt="bg" width="20">
+        </li>
+            <li><a href="https://github.com/yourgithub">GitHub</a>
+                <img src="BG2.jpg" alt="BG2" width="20">
+            </li>
+            <li><a href="https://Telegram.com/in/yourlinkedin">Telegram</a>
+            <img src="LOGO TL.png" alt="Log" width="20">
+            </li>
+            <li><a href="https://Whatsap.com/in/yourlinkedin">Whatsap</a>
+            <img src="LOGO WT.png" alt="Log" width="20">
+            </li>
+        </ul>
+    </footer>
+</body>
+</html>
